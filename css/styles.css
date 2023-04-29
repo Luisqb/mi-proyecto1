@@ -85,6 +85,12 @@ img {
 
 
 }
+
+section{
+    min-height: 100vh;
+
+}
+
 /* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
 *  el margin: auto; para tenerlo centrado fácilmente ;)
 */
@@ -103,9 +109,11 @@ main {
 
 #inicio{
     padding-top:  130px;
-   
+    
 
 }
+
+
 
 .seccion1{
     display: flex;
@@ -116,7 +124,7 @@ main {
 }
 
 h1{
-    font-size: 35px;
+    font-size: 36px;
     padding: 15px;  
     margin: 1.5rem 0;
     text-align: center;
